@@ -1,0 +1,7 @@
+-- SELECT * FROM marks;
+-- SELECT subject, score FROM marks
+-- WHERE score > (SELECT AVG(score) FROM marks);
+-- SELECT subject FROM marks e
+-- WHERE score >(
+-- SELECT avg(score) FROM marks WHERE subject = e.subject
+-- );

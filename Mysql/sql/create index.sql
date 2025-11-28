@@ -1,0 +1,88 @@
+-- CREATE DATABASE harryjoins;
+-- DROP DATABASE harryjoins;
+-- CREATE DATABASE IF NOT EXISTS harryjoins;
+
+-- USE harryjoins;
+-- CREATE TABLE students(
+-- id INT PRIMARY KEY,
+--  name VARCHAR(50)
+--  );
+ -- INSERT INTO STUDENTS(id,name)
+
+--  VALUES(1,"RADHA")
+ -- INSERT INTO STUDENTS(id,name)
+--  VALUES (2,"aasha")
+-- INSERT INTO students (id,name) VALUES
+-- INSERT INTO students (id, name) VALUES
+-- (3, "raghu"),
+-- (4, "varsha"),
+-- (5, "nidhi"),
+-- (6, "vinod"),
+-- (7, "saurav"),
+-- (8, "gaurav");
+-- (9, "komal"),
+-- (10, "kriti"),
+-- (11, "piyush"),
+-- (12, "bhavya"),
+-- (13, "aakash"),
+-- (14, "vivan");
+-- SELECT * FROM students;
+-- CREATE TABLE marks (
+-- id INT AUTO_INCREMENT PRIMARY KEY,
+-- student_id INT,
+-- subject VARCHAR(50),
+-- score INT,
+-- FOREIGN KEY (student_id) REFERENCES students(id)
+-- );
+-- INSERT INTO marks (student_id,subject,score) VALUES
+-- -- (1,"math",92),
+-- -- (2,"eng",90),
+-- -- (1,"science",89),
+-- -- (1,"bio",78),
+-- -- (2,"phy",98);
+-- -- (3,"coding",70),
+-- -- (3,"coding",80),
+-- -- (4,"math",89),
+-- -- (4,"math",87),
+-- -- (5,"geo",84);
+-- (6,"coding",43),
+-- (7,"chem",82),
+-- (7,"eng",92),
+-- (8,"hindi",96),
+-- (8,"his",90),
+-- (9,"coding",80),
+-- (9,"bio",89),
+-- (10,"eng",90),
+-- (10,"phy",81),
+-- (11,"chem",89),
+-- (11,"his",98),
+-- (12,"bio",92),
+-- (12,"geo",41),
+-- (13,"hindi",90),
+-- (13,"math",73),
+-- (14,"coding",95),
+-- (14,"math",98);
+-- SELECT * FROM marks;
+
+-- INNER JOIN 
+
+-- SELECT students.name, marks.subject, marks.score
+-- FROM students
+-- INNER JOIN marks ON students.id = marks.student_id;
+
+-- LEFT join
+-- SELECT students.name, marks.subject, marks.score
+-- FROM students
+-- LEFT JOIN marks ON students.id = marks.student_id;
+
+-- CROSS JOIN
+-- SELECT students.name,marks.subject
+-- FROM students
+-- CROSS JOIN marks;
+-- USE harryjoins;
+-- SELECT * FROM marks WHERE score>50;
+-- USE harryjoins;
+-- SELECT * FROM marks WHERE subject ="math";
+-- CREATE index idx on marks(subject);
+-- drop index idx on marks; 
+

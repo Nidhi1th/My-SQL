@@ -1,0 +1,12 @@
+-- SELECT CURRENT_timestamp();
+-- SELECT NOW();
+-- SELECT * FROM students;
+-- ALTER TABLE students
+-- ADD COLUMN date_joined DATETIME DEFAULT NOW();
+-- SELECT * FROM students;
+-- INSERT INTO students (id,name,age,marks,date_joined)
+-- VALUES(236,"kushu"20,89,NOW());
+-- SELECT * FROM STUDENTS;
+-- INSERT INTO students (id, name, age, marks, date_joined)
+-- VALUES (236, "kushu", 20, 89, NOW());
+-- SELECT * FROM students;
